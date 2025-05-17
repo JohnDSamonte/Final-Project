@@ -1,0 +1,119 @@
+section{
+    text-align: center;
+    background-color: #388E3C;
+    margin: 10px 20%;
+}
+
+.asterisk {
+    color: red;
+    font-weight: bold;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    display: none;
+    margin-left: 10px;
+}
+
+label {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2E7D32; /* Deep forest green */
+    color: white; /* White text for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    float: left;
+    margin: 10px;
+}
+
+nav {
+    font-family: Calibri, sans-serif;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1B5E20; /* Dark tree green */
+    border: 3px solid #4CAF50; /* Jungle green border */
+    color: white; /* White text */
+}
+
+header {
+    background-color: #388E3C; /* Lush green header */
+    color: white; /* White text */
+    padding: 20px;
+    text-align: center;
+    font-size: 10px;
+    background-image: url("images/bgimage.jpg");
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+
+}
+
+
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+    color: white; /* White text */
+    margin: 5px;
+    padding: 5px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+li a{
+    padding: 10px;
+    text-decoration: none;
+    background-color: #1B5E20; /* Fresh leaf green */
+    color: white; /* White text */
+    display: block;
+    margin: 0 auto;
+    
+}
+
+li a:hover, li a:active, button:hover {
+    background-color: #66BB6A; /* Deeper green for hover */
+    color: #1B5E20; /* White text */
+    display: block;
+    margin: 0 auto;
+}
+
+input[type="submit"]:hover, button {
+    background-color: #1B5E20; /* Deeper green for hover */
+    color: white;
+}
+
+.container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input[type="submit"], input, textarea {
+    width: 100px; height: 20px;
+    background-color: #4CAF50;
+    color: white; /* White text */
+}
+
+footer {
+    background-color: #1B5E20;
+    color: white; /* White text */
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+

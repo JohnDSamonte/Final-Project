@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alternative Energy!</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <header>
+        <h1>Empowering the Future with Clean Energy</h1>
+        <h3 style="text-align: center;">Discover innovative solutions for a sustainable world—solar, wind, and beyond.</h3>
+
+    </header>
+    <nav>
+
+        <img src="images/logo.png" alt="Website Logo" width="75" height="75">
+        <h3 style="float: left; clear: both;">Alternative Energy</h3>
+        <ul class="listnav">
+            <li><a href="finalproject1.html">Home</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="Quiz.html">Try a Quiz</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="proj_profile_samonte.html">Profile</a></li>
+            <li><a href="proj_signup_samonte.html">Sign Up</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h3><b>Sign Up</b></h3>
+  
+        <form onsubmit = "myForm()">
+            <label for="fname">First Name: </label><br/>
+            <input type="text" id="fname" name="name" required><br/>
+            <label for="lname">Last Name: </label><br/>
+            <input type="text" id="lname" name="name" required><br/>
+            <p>Sex:</p>
+            <input type="radio" id="Male" name="sex" value="Male" required>
+            <label for="Male">Male</label></br>
+            <input type="radio" id="Female" name="sex" value="Female">
+            <label for="Female">Female</label></br>
+            <input type="radio" id="Prefer not to say" name="sex" value="Prefer not to say">
+            <label for="Prefer not to say">Prefer not to say</label><br/><br/>
+            <label for="pass">Password: </label><br/>
+            <input type="password" id="pass" name="pass" required><br/>
+            <label for="num">Contact Number: </label><br/>
+            <input type="number" id="num" name="num"><br/>
+            <label for="reason">Why are you supporting our campaign: </label><br/>
+            <textarea id="reason" name="reason" required></textarea><br/><br/>
+
+
+            <input type = "submit" value = "Sign up">
+    
+        </form>
+
+        <br><br>
+        <div id="output"></div>
+    </section>
+
+  <script src="signup.js"></script>
+
+    <footer>
+        This is a product of John Felippe Samonte from 9-Calcium. Created on 2024 October. For CS3 Html and CSS. Images: CTTO.
+    </footer>
+
+</body>
+
+
+</html>

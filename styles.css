@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2E7D32; /* Deep forest green */
+    color: white; /* White text for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    float: left;
+    margin: 10px;
+}
+
+article {
+    background: #4CAF50; /* Vibrant jungle green */
+    border: 10px double #81C784; /* Lighter green accent */
+    color: white; /* White text */
+}
+
+
+nav {
+    font-family: Calibri, sans-serif;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1B5E20; /* Dark tree green */
+    border: 3px solid #4CAF50; /* Jungle green border */
+    color: white; /* White text */
+}
+
+header {
+    background-color: #388E3C; /* Lush green header */
+    color: white; /* White text */
+    padding: 20px;
+    text-align: center;
+    font-size: 10px;
+    background-image: url("images/bgimage.jpg");
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+}
+
+
+button {
+    width: 150px;
+    height: 50px;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-left: 20px;
+    background-color: #4CAF50; /* Jungle accent */
+    color: white; /* White text */
+    border: none;
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+    color: white; /* White text */
+    margin: 5px;
+    padding: 5px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+li a {
+    padding: 10px;
+    text-decoration: none;
+    background-color: #1B5E20; /* Fresh leaf green */
+    color: white; /* White text */
+    display: block;
+}
+
+li a:hover, li a.active {
+    background-color: #66BB6A; /* Deeper green for hover */
+    color: #1B5E20; /* White text */
+}
+
+p {
+    line-height: 1.6;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+    color: white; /* White text */
+    margin: 5px;
+}
+
+footer {
+    background-color: #1B5E20;
+    color: white; /* White text */
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.sprite {
+    width: 64px;
+    height: 64px;
+    background: url('Earth.png') no-repeat;
+    animation: play 1s steps(8) infinite;
+}
+
+@keyframes play {
+    from { background-position: 0; }
+    to { background-position: -384px; }
+}
+
+.rotate:active {
+    transform: rotate(3600deg);
+    transition: transform 1.5s ease-in-out;
+}
